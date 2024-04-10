@@ -1,0 +1,47 @@
+corrigir este app calculadora
+
+programa {
+funcao inicio() {
+
+algoritmo
+
+
+real n1,n2, saida
+operaco = caractere
+
+
+escreva ("\n")
+escreva(" Insira n1 ")
+leia(n1)
+escreva(" Operacao ")
+leia(operacao)
+escreva(" Insira n2 ")
+leia(n2)
+escreva ("\n")
+
+escolha (opereracao)
+se "+"
+saida <- n1 + n2
+
+se "-"
+saida <- n1 - n2
+
+se "*"
+saida <- n1 * n2
+
+caso "/"
+se n2=0 entao
+escreva(" Erro! Divisão por zero, entre com um denominador diferente de 0")
+
+senao saida <- n1 / n2
+
+fimse
+
+fimescolha
+
+escreva(" Resultado da operação:", saida)
+escreva ("\n")
+
+fimalgoritmo
+
+}
