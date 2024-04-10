@@ -1,0 +1,24 @@
+algoritmo de calcular o imposto de renda
+
+Real sal, imp
+Caracter condic
+Escreva ("\n")
+Escreva ("informe o valor do salário")
+Leia (sal)
+Se (sal > 2326.01)
+condic = 'c'
+Senao
+Se (sal <= 1164)
+Condic = 'a'
+Senao
+Condic = 'b'
+Escolha (condic) {
+Caso 'a':
+Imp = 0
+Caso 'b'
+Imp = sal*0.15
+Caso 'c'
+Imp = sal*0.275
+}
+Escreva ("\n valor do imposto de renda:", imp) }
+{
