@@ -1,0 +1,7 @@
+atividade de criar o app receber o nome e sobrenome e mostrar
+
+Programa {
+ Função início {
+ Caracter sobrenome, nome
+Escreva ("digite nome, sobrenome")
+Leia nome, sobrenome
