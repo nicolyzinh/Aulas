@@ -1,0 +1,22 @@
+calculo de peso de uma pessoa.
+
+
+Algoritmo Calcular Peso Ideal
+   
+    Escrever "Informe sua altura em metros:"
+    Ler altura
+    Escrever "Informe seu sexo (M para masculino ou F para feminino):"
+    Ler sexo
+
+   
+    Se sexo = "M" ou sexo = "m" Então
+        peso_ideal <- (72.7 * altura) - 58
+    Senão Se sexo = "F" ou sexo = "f" Então
+        peso_ideal <- (62.1 * altura) - 44.7
+    Senão
+        Escrever "Sexo inválido. Por favor, informe 'M' para masculino ou 'F' para feminino."
+        Parar algoritmo
+    Fim Se
+
+    Escrever "Seu peso ideal é:", peso_ideal, "quilogramas."
+Fim Algoritmo
